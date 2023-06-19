@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>"Felix día del Padre"</title>
+<style>
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+#fireworks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+@keyframes fireworks {
+  0% {background-position: 0 0;}
+  100% {background-position: -1440px 0;}
+}
+
+#fireworks {
+  animation: fireworks 20s linear infinite;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2467a82f-12d9-4752-a0ab-216f6a3df68a/dctt85e-03f76887-d4a8-4c18-8792-9edb30516ecd.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI0NjdhODJmLTEyZDktNDc1Mi1hMGFiLTIxNmY2YTNkZjY4YVwvZGN0dDg1ZS0wM2Y3Njg4Ny1kNGE4LTRjMTgtODc5Mi05ZWRiMzA1MTZlY2QuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J5vlDVkkdufHBgIU-jxfHLvmQGestMaUPNOIv4LKz_8') repeat-x;
+  background-size: 2900px 3000px; /* Aumentamos el tamaño de la imagen */
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 24px;
+  }
+}
+</style>
+</head>
+<body>
+<div id="message">Feliz Dia del Padre!!! :)</div>
+<div id="animation">
+  <img src="https://i.ibb.co/0CTg8w3/img1.jpg" alt="Padre" style="width: 100%; height: auto;"> <!-- Cambiamos el estilo de la imagen para que ocupe el 100% del ancho -->
+</div>
+
+<div id="text">
+      "Papa, espero que estes bien. Quiero que sepas que te aprecio mucho y deseo que tengas buena salud y la bendicion de Dios. Con carino, Joshua".
+    </div>
+
+</div>
+<div id="fireworks"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+      
+    
